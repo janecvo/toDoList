@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-Do List</title>
+    <link rel="stylesheet" href="styleToDo.css">
+</head>
+<body>
+    <div class="header">
+<!-- Input to put a new to-do -->
+        <h2>To Do List</h2>
+        <input type="text" id="input" placeholder="Add To-Do Item Here"/>
+        <button type="button" id="Add" onclick="newElement()">Add</button>
+        </div>
+        
+        <br><br>
+<!-- unordered to-do list -->
+            <ul id="list">
+                <li>Do laundry</li>
+                <li>Completed reading</li>
+                <li>Go grocery shopping</li>
+                <li>Review JavaScript</li>
+            </ul>
+            <br>
+            <button type="button" id="clear" onclick="removeAll()"> Clear List </button>
+
+<script src="toDoList.js"></script>
+</body>
+</html>
